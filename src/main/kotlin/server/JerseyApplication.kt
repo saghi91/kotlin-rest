@@ -1,4 +1,4 @@
-package server
+package server.server
 
 import user.UserResouce
 import javax.ws.rs.core.Application
