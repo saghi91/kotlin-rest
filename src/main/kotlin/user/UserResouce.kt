@@ -11,6 +11,7 @@ class UserResouce {
 
     @GET @Path("{username}")
     fun get(@PathParam("username") username: String): User? {
+	println(username)
         return users[username]
     }
 
